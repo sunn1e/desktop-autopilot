@@ -25,9 +25,7 @@ function App() {
   }, []);
   return (
     <div className="container">
-      <h1>Welcome to Autopilot Desktop!</h1>
-
-      <p>Click on Launch to get started.</p>
+      <h1>Welcome to SellerGeni's Autopilot Desktop!</h1>
 
       <div className="row">
         <div>
