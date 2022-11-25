@@ -55,11 +55,16 @@
     },
     "windows": [
       {
+        "url":"https://app.sellergeni.com/login?autopilot=true",
         "fullscreen": false,
-        "height": 768,
+        "maximized": true,
+        "minHeight": 768,
         "resizable": true,
         "title": "SellerGeni Autopilot",
-        "width": 1366
+        "minWidth": 1366,
+        "center":false,
+        "focus":true
+
       }
     ]
   }
