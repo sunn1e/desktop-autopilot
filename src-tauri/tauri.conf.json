@@ -7,8 +7,8 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "sellergeni-desktop",
-    "version": "0.0.0"
+    "productName": "sellergeni-autopilot-desktop",
+    "version": "1.0.1"
   },
   "tauri": {
     "allowlist": {
@@ -17,7 +17,7 @@
     "bundle": {
       "active": true,
       "category": "DeveloperTool",
-      "copyright": "",
+      "copyright": "SellerGeni",
       "deb": {
         "depends": []
       },
@@ -56,10 +56,10 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
+        "height": 768,
         "resizable": true,
-        "title": "sellergeni-desktop",
-        "width": 800
+        "title": "SellerGeni Autopilot",
+        "width": 1366
       }
     ]
   }
