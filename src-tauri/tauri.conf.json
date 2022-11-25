@@ -7,7 +7,7 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "sellergeni-autopilot-desktop",
+    "productName":"SellerGeni Autopilot",
     "version": "1.0.1"
   },
   "tauri": {
