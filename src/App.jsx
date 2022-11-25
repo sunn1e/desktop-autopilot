@@ -4,14 +4,9 @@ import { invoke } from "@tauri-apps/api/tauri";
 import "./App.css";
 
 function App() {
-  const [greetMsg, setGreetMsg] = useState("");
-  const [name, setName] = useState("");
 
-  async function greet() {
-    // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
-    setGreetMsg(await invoke("greet", { name }));
-  }
   async function launch() {
+    // this is backup incase config.json fails
     const win = window.open(
       "https://app.sellergeni.com/login?autopilot=true",
       "_self"
@@ -21,7 +16,7 @@ function App() {
     }
   }
   useEffect(() => {
-    launch();
+    // launch();
   }, []);
   return (
     <div className="container">
@@ -39,8 +34,6 @@ function App() {
           </button>
         </div>
       </div>
-
-      <p>{greetMsg}</p>
     </div>
   );
 }
